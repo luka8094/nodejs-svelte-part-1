@@ -1,10 +1,26 @@
 <script>
-	export let name;
+	import Introduction from "./pages/introduction/Introduction.svelte"
+
+	import Reactivity from "./pages/reactivity/Reactivity.svelte";
+
+	import Props from "./pages/props/Props.svelte";
+
+	import Logic from "./pages/logic/logic.svelte";
+
+	import Events from "./pages/events/Events.svelte";
+
+	let name = "there"
 </script>
 
 <main>
 	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<p>Below are exercises from Svelte's homepage... check 'em out!</p>
+
+	<Introduction/>
+	<Reactivity/>
+	<Props/>
+	<Logic/>
+
 </main>
 
 <style>
