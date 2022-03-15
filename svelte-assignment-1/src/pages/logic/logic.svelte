@@ -4,6 +4,7 @@
     import ElseBlocks from "./logic/ElseBlocks.svelte"
     import ElseIfBlocks from "./logic/ElseIfBlocks.svelte"
     import EachBlocks from "./logic/EachBlocks.svelte"
+    import KeyedEachBlocks from "./logic/keyedeachblocks/KeyedEachBlocks.svelte"
 
 </script>
 
@@ -14,6 +15,7 @@
     <ElseBlocks/>
     <ElseIfBlocks/>
     <EachBlocks/> 
+    <KeyedEachBlocks/>
 
 </div>
 
@@ -22,7 +24,7 @@
     #logic-container{
         display: flex;
         flex-direction: column;
-        height: 600px;
+        height: 1200px;
         background-color: lightgreen;
         width: calc(90% - 100px);
         margin: 10px auto 10px auto;
