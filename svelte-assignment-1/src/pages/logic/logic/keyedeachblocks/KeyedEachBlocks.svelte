@@ -53,7 +53,7 @@
 
 
     button{
-        width: (150px - 35%);
+        margin: 0 auto;
     }
 
     #keyed-exercise-container{
