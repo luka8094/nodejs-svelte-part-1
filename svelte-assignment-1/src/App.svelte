@@ -20,6 +20,7 @@
 	<Reactivity/>
 	<Props/>
 	<Logic/>
+	<Events/>
 
 </main>
 
